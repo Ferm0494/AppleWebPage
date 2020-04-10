@@ -1,0 +1,159 @@
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+input {
+    border: 0;
+    background: none;
+    width: 5em;
+    margin-left: 1.5em;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 5em;
+}
+
+ul {
+    width: 75%;
+    list-style: none;
+}
+
+li span {
+    width: 80%;
+    border-radius: 10px;
+    border: 1px groove rgba(116, 116, 116, 1);
+    box-shadow: 5px 10px #888888;
+    background-color: transparent;
+}
+
+span i {
+    position: absolute;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+}
+
+
+/* border-radius: 10px;
+border: 3x groove rgba(116, 116, 116, 1);
+box-shadow: 5px 10px #888888;
+background-color: transparent; */
+
+li {
+    display: flex;
+    color: #fff;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 1px solid rgba(116, 116, 116, 1);
+}
+
+li:last-child {
+    border-right: none;
+}
+
+#mainBackground {
+    display: grid;
+    grid-template-rows: 35% 65%;
+    width: 100%;
+    height: 50rem;
+    background-image: url('../imgs/your_verse_hero.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.searchbar {
+    border-radius: 10px;
+    margin: 0 auto;
+    background: rgb(116, 116, 116);
+    background: linear-gradient(180deg, rgba(116, 116, 116, 1) 0%, rgba(94, 94, 94, 1) 50%, rgba(143, 143, 143, 1) 100%);
+    display: flex;
+}
+
+.descriptions {
+    margin: 0 auto;
+    width: 50%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.descriptions img {
+    width: 100%;
+}
+
+#slider {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+}
+
+#slider img {
+    width: 100%;
+}
+
+footer {
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.whiteicon {
+    color: #fff;
+}
+
+.aligning1 {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.aligning2 {
+    display: flex;
+}
+
+.aligning2 li,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer div ul {
+    width: auto;
+}
+
+footer li {
+    display: inline;
+}
+
+footer p {
+    font-size: 1em;
+    color: rgb(110, 110, 110);
+}
+
+footer a {
+    font-size: 1em;
+    color: rgb(0, 136, 204);
+    text-decoration: none;
+}
+
+
+/* 
+@media screen and(max-width: 500px) {
+    .searchbar {
+        margin-left: 0;
+    }
+} */
