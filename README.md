@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Ferm0494/AppleWebPage/e6e25231c8bf71140762306505ca3ee039ce59ee/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Ferm0494/AppleWebPage/826209621fa3dcb5f4b8ad621314866536c87a54/index.html)
 
 ## Getting Started
 
