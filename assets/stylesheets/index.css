@@ -1,153 +1,157 @@
 h1,
 h2,
 h3,
-p {
-  margin: 0;
-  padding: 0;
-  width: auto;
+p,
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
 }
 
 input {
-  border: 0;
-  background: none;
-  width: 4em;
-  margin-left: 1.5em;
-  padding: 10px 0;
-  text-align: center;
-  color: #fff;
+    border: 0;
+    background: none;
+    width: 4em;
+    margin-left: 1.5em;
+    padding: 7.5px 0;
+    text-align: center;
+    color: #fff;
 }
 
 nav {
-  margin-top: 5em;
+    margin-top: 5em;
 }
 
 ul {
-  width: 75%;
-  list-style: none;
+    width: 75%;
+    list-style: none;
 }
 
 li span {
-  width: 80%;
-  border-radius: 10px;
-  border: 1px groove rgba(116, 116, 116, 1);
-  box-shadow: 5px 10px #888;
-  background-color: transparent;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px groove rgba(116, 116, 116, 1);
+    box-shadow: 5px 10px #888;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 span i {
-  position: absolute;
-  margin-top: 10px;
+    position: absolute;
+    margin-top: 10px;
 }
 
 li {
-  display: flex;
-  color: #fff;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  border-right: 1px solid rgba(116, 116, 116, 1);
+    display: flex;
+    color: #fff;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 1px solid rgba(116, 116, 116, 1);
 }
 
 footer li {
-  display: inline;
+    display: inline;
 }
 
 li:last-child {
-  border-right: none;
+    border-right: none;
 }
 
 #mainBackground {
-  display: grid;
-  grid-template-rows: 35% 65%;
-  width: 100%;
-  height: 50rem;
-  background-image: url('../imgs/your_verse_hero.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    width: 100%;
+    height: 50rem;
+    background-image: url('../imgs/your_verse_hero.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .searchbar {
-  border-radius: 10px;
-  margin: 0 auto;
-  background: rgb(116, 116, 116);
-  background: linear-gradient(180deg, rgba(116, 116, 116, 1) 0%, rgba(94, 94, 94, 1) 50%, rgba(143, 143, 143, 1) 100%);
-  display: flex;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: rgb(116, 116, 116);
+    background: linear-gradient(180deg, rgba(116, 116, 116, 1) 0%, rgba(94, 94, 94, 1) 50%, rgba(143, 143, 143, 1) 100%);
+    display: flex;
 }
 
 .descriptions {
-  margin: 0 auto;
-  width: 50%;
-  height: 20rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .descriptions img {
-  width: 100%;
+    width: 100%;
 }
 
 #slider {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
 }
 
 #slider img {
-  width: 100%;
+    width: 100%;
 }
 
 footer {
-  height: 6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .whiteicon {
-  color: #fff;
+    color: #fff;
 }
 
 .aligning1 {
-  /* background-color: rebeccapurple; */
-  display: flex;
-  justify-content: space-between;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
 }
 
 .aligning2 {
-  display: flex;
+    display: flex;
 }
 
 .aligning2 li,
 ul {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 footer div ul {
-  width: auto;
+    width: auto;
 }
 
 footer p {
-  font-size: 0.85em;
-  color: rgb(110, 110, 110);
+    font-size: 0.85em;
+    color: rgb(110, 110, 110);
 }
 
 footer a {
-  font-size: 0.85em;
-  color: rgb(0, 136, 204);
-  text-decoration: none;
+    font-size: 0.85em;
+    color: rgb(0, 136, 204);
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 800px) {
-  .searchbar {
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .descriptions {
-    width: 100%;
-  }
+    .searchbar {
+        margin-left: 0;
+        width: 100%;
+    }
+    .descriptions {
+        width: 100%;
+    }
 }
